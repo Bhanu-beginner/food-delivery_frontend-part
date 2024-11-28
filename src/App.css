@@ -164,6 +164,7 @@ body{
     font-size: 1rem;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .social-links a img{
@@ -232,7 +233,7 @@ body{
 /* Styling for the home page */
 
 .contain{
-    width: 1500px;
+    min-width: 1500px;
     padding: 50px;
 }
 
@@ -264,11 +265,12 @@ body{
 .offer .cart{
     background: rgba(2, 134, 67, 1);
     color: rgba(255, 255, 255, 1);
-    padding: 20px 150px 20px 50px;
+    padding: 20px 150px 20px 78px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-weight: 500;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 
@@ -282,7 +284,7 @@ body{
 
 .offer .cart .arrow{
     position: absolute;
-    left: 92%;
+    left: 95%;
 }
 
 /* styling for the navbar items */
@@ -322,17 +324,20 @@ body{
     position: relative;
     background: rgba(3, 8, 31, 1);
     border-radius: 50%;
-    left: 5px;
+    width: 50px;
+    top:-8%;
 }
 
 .navitems .button{
     color: rgba(255, 255, 255, 1);
-    height: 30px;
-    width: 120px;
+    width: 110px;
+    padding: 18px;
     background: rgba(3, 8, 31, 1);
-    line-height: 25px;
+    line-height: 5px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 108px;
 }
 
 
@@ -342,31 +347,25 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:rgba(251, 251, 251, 1);
-    padding: 40px;
-}
-
-
-.banner-container{
-    position: relative;
+    background:rgba(251, 251, 251, 0.9);
+    border-radius: 20px;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .banner-container p{
     font-weight: 400;
     font-size: 1rem;
-}
-
-
-.banner-container p{
-    padding: 0px 0px 0px 30px;
-    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    margin: 10px;
 }
 
 .banner-container h2{
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 20px;
     font-weight: 600;
     font-size: 3rem;
     margin-top: 0px;
+    line-height: 45px;
    }
 
 
@@ -375,7 +374,7 @@ body{
 }
 
 .banner-container .statement{
-    padding: 0px 0px 10px 30px;
+    padding: 0px 0px 10px 20px;
     margin: 0px 0px 20px 0xp;
 }
 
@@ -386,7 +385,7 @@ body{
     color: rgba(0, 0, 0, 0.8);
     font-weight: 400;
     margin: 0px 0px 5px 25px;
-    padding: 15px 10px 15px 10px;
+    padding: 15px 10px 15px 40px;
     border-radius: 25px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     outline: none;
@@ -408,29 +407,445 @@ body{
     font-size: 1rem;
     outline: none;
     border: none;
+    cursor: pointer;
 }
 
 .banners .banner{
-    width: 840px;
-    height: 535px;
+    width:700px;
+    height: 450px;
     position: absolute;
-    right: 20%;
-    top: 32.5%;
+    right: 25%;
+    top: 34%;
     z-index: 1;
 }
 
 .banners .banner2{
-    padding: 30px;
-    width: 320px;
-    top: 85px;
-    height: 400px;
+    width: 205px;
+    top: 100px;
+    height: 300px;
     position: relative;
-    left: -15%;
+    right:30%;
 }
 
 .banners .curve{
     width: 550px;
     position: relative;
-    right: -30%;
-    top: 35px;
+    right: -13.7%;
+    height: 450px;
+    top: 23px;
+}
+
+/* styling for the notifying popups */
+
+
+.logos .sidelogo1{
+    background: rgba(248, 248, 248, 1);
+    position: relative;     
+    left: 490px;
+    z-index: 1;
+    height: 50px;
+    padding: 10px;
+    bottom: -20px;
+    line-height: .5px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+ .logos .sidelogo1 img{
+    width:60px;
+    position: relative;
+    left: 10px;
+}
+
+.sidelogo1 h6{
+    position: relative;
+    top: -10px;
+    left: 12px;
+}
+
+.logos .sidelogo2{
+    background: rgba(248, 248, 248, 1);
+    position: relative;     
+    left: 550px;
+    z-index: 1;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 1px;
+    top: 60px;
+    height: 50px;
+}
+
+
+.sidelogo2 h6 img{
+    max-width: 20px;
+    position: relative;
+    top: 6px;
+}
+
+.sidelogo2 h6{
+    position: relative;
+    top: -8px;
+    left: 2px;
+}
+
+.sidelogo2 img{
+    width:60px;
+}
+
+
+.sidelogo3 h6{
+    position: relative;
+    top: -8px;
+    left: 2px;
+}
+
+.sidelogo3 img{
+    width:60px;
+}
+
+
+.logos .sidelogo3{
+    background: rgba(248, 248, 248, 1);
+    position: relative;     
+    left: 500px;
+    z-index: 1;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 1px;
+    top:110px;
+    height: 50px;
+}
+
+
+.sidelogo1 p{
+    font-size: .7rem;
+    position: relative;
+    left: 10px;
+    top: -14px;
+}
+
+ .sidelogo1 h6{
+    font-size: .6rem;
+}
+
+ .sidelogo2 p{
+    font-size: .7rem;
+    position: relative;
+    top: -12px;
+}
+
+.sidelogo2 h6{
+    font-size: .6rem;
+}
+
+ .sidelogo3 p{
+    font-size: .7rem;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+
+.sidelogo3 h6{
+    font-size: .6rem;
+}
+
+
+/* "Exclusive deals" section styling starts here */
+
+
+.deal-section{
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.deal-section h3{
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    top: 0px;
+}
+
+.deal-section a{
+    text-align: center;
+    margin-right:60px; 
+    font-weight: 400;   
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+    font-size: 1rem ;
+}
+
+
+.deal-section .vegan{
+    margin-left: auto;
+}
+
+
+.deal-section .pizza{
+    border: 1px solid rgba(252, 138, 6, 1);
+    color: rgba(252, 138, 6, 1);
+    font-weight: 600;
+    padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.dishes img{
+    padding: 10px;
+    width: 480px;
+    cursor: pointer;
+}
+
+
+
+/* Category section styling starts from here(Home page) */
+
+
+.category h3{
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+
+.various-items{
+    display: flex;
+}
+
+
+.various-items img{
+    cursor: pointer; 
+    position: relative; 
+    top: 50px;
+    height: 200px;
+    padding-right: 10px;
+}
+
+
+.various-items h6 {
+    position: absolute;
+    background: rgba(245, 245, 245, 1);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.item1 h6 {
+    width: 208px;
+    top: -10px;
+    height: 80px;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 25px;
+}
+
+
+.item2 h6 {
+    width: 205px;
+    top: -10px;
+    height: 80px;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 30px;
+}
+
+
+.item3 h6 {
+    width: 208px;
+    top: -10px;
+    height: 80px;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 25px;
+}
+
+
+.item4 h6 {
+    width: 204px;
+    top: -10px;
+    height: 80px;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 30px;
+}
+
+
+.item5 h6 {
+    width: 205px;
+    top: -10px;
+    height: 80px;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 30px;
+}
+
+
+.item6 h6 {
+    width: 205px;
+    top: -10px;
+    height: 80px;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 30px;
+}
+
+
+.item1 p{
+    position: relative;
+    top: -95px;
+    padding-left: 25px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+.item2 p{
+    position: relative;
+    top: -95px;
+    padding-left: 30px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+.item3 p{
+    position: relative;
+    top: -95px;
+    padding-left: 25px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+.item4 p{
+    position: relative;
+    top: -95px;
+    padding-left: 30px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+.item5 p{
+    position: relative;
+    top: -95px;
+    padding-left: 28px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+
+.item6 p{
+    position: relative;
+    top: -95px;
+    padding-left: 30px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+/* Restaurant picks styling starts from here */
+
+
+ h3{
+    font-weight: 700;
+    font-size: 2rem;
+    position: relative;
+    top: -60px;
+}
+
+
+.restaurant-images img{
+    width: 150px;
+    height: 150px;
+    padding-right: 40px;
+    position: relative;
+    top: -40px;
+    left: 40px;
+    margin: 0px 20px 0px 20px;
+    cursor: pointer;
+}
+
+/* Ordering message-displayed styling starts from here */
+
+.order-banner{
+    padding: 30px;
+    height: 400px;
+}
+
+.order-banner .couple-banner{
+    width: 500px;
+    height: 500px;
+    background: rgba(224, 225, 220, 0.9);
+    padding-left: 30px;
+}
+
+/* Second-section styling starts from here */
+
+.advertise img{
+    width: 700px;
+    padding: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+
+
+
+/* last-section styling starts from here */
+
+
+.stats{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: rgba(252, 138, 6, 1);
+    width: 93%;
+    position: relative;
+    left: 20px;
+    bottom: 0px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.stats p{
+    font-size: 3rem;
+    font-weight: 300;
+    width: 250px;
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.stats h6{
+    position: relative;
+    left: 0px;
+    bottom: 100px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.stat p{
+    position: relative;
+    left: -20px;
+}
+
+.analytics p{
+    position: relative;
+    left: 50px;
+}
+
+.analytic h6{
+    position: relative;
+    left: 55px;
 }

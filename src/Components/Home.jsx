@@ -5,6 +5,13 @@ import location from '../assets/Location.png'
 import shoppingicon from '../assets/Full Shopping Basket.png'
 import downarrow from '../assets/Forward Button.png'
 import curve from '../assets/image 1.png'
+import logo from '../assets/LOGO 1.png'
+import DealSection from './DealSection';
+import Category from './Category';
+import Restaurants from './Restaurants';
+import OrderingBanner from './OrderingBanner';
+import Advertising from './Advertising';
+import Stats from './Stats';
 
 function Home() {
 
@@ -23,12 +30,37 @@ function Home() {
            <p className='statement'>Enter a postcode to see what we deliver</p>
            <input className='field' type="email" placeholder='e.g. EC4R 3TE'/>
            <input className='button' type="button" value="Search" />  
-        </div> 
+        </div>
+        <div className='logos'>
+          <div className='sidelogo1'>
+              <img src={logo} alt="logo image" />
+              <h6>We’ve Received your order!</h6>
+              <p>Awaiting Restaurant acceptance </p>
+            </div>
+
+            <div className='sidelogo2'>
+              <img src={logo} alt="logo image" />
+              <h6>Order Accepted! ✅</h6>
+              <p>Your order will be delivered shortly</p>
+            </div>
+
+
+            <div className='sidelogo3'>
+              <img src={logo} alt="logo image" />
+              <h6>Your rider is nearby🎉</h6>
+              <p>They&apos;re almost there- get ready!</p>
+            </div> 
+         </div>
            <img src={curve}  className='curve' alt="design pic" />       
            <img src={banner}  className='banner'  alt="banner pic" />
            <img src={banner2} className='banner2' alt="side banner image" />
-          
       </div>
+      <DealSection/>
+      <Category/>
+      <Restaurants/>
+      <OrderingBanner/>
+      <Advertising/>
+      <Stats/>
     </div>
   );
 }

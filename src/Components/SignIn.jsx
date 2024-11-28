@@ -3,23 +3,23 @@ import { useState } from 'react';
 import axios from 'axios';
 import img from "../assets/Group 8.svg";
 import { useNavigate } from 'react-router-dom';
+import {Toaster, toast} from 'react-hot-toast'
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [message, setMessage] = useState('');
     const navigate = useNavigate();
 
     const handleLogin = async (e) => {
       e.preventDefault();
         try {
             const res = await axios.post('http://localhost:5000/api/users/login', { email, password });
-            setMessage('User logged in successfully');
+            toast.success('User logged in successfully');
             navigate('/home');
-            console.log(res.data);
+            res.status(200).json({message: 'User logged in Successfully'});
         } catch (err) {
             console.log(err);
-            setMessage('Error logging in');
+            toast.error('Error logging in');
         }
     };
 
@@ -41,14 +41,15 @@ const Login = () => {
                 <input type="password" id='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder="At least 8 characters" />
 
                 <button onClick={handleLogin}>Sign In</button>
-                {message && <p className='error-msg'>{message}</p>} 
                 <p>Don&apos;t you have an account? <a href='SignUp'>Sign up</a></p>
              </form>
           </div>
             
             <img src={img} className="img" alt="burger pic" />
 
-         </div>
+          <Toaster/>  
+       </div>
+
     );
 };
 

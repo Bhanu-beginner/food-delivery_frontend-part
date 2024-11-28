@@ -2,15 +2,13 @@ import { useState } from 'react';
 import axios from 'axios';
 import logo from '../assets/LOGO 1.png';
 import img from '../assets/Group 8.svg';
-
-
+import {Toaster, toast} from 'react-hot-toast'
 
 const Signup = () => {
     const [name, setName] = useState(''); 
     const [password, setPassword] = useState(''); 
     const [phoneNumber, setPhoneNumber] = useState(''); 
     const [email, setEmail] = useState('');
-    const [message, setMessage] = useState(''); 
 
 
 
@@ -18,13 +16,13 @@ const Signup = () => {
         e.preventDefault();
         try {
              const res = await axios.post('http://localhost:5000/api/users/register', { name, password, phoneNumber, email }); 
-             setMessage('User registered successfully');
-             console.log(res.data);
+             toast.success('User registered successfully');
+             res.status(200).json({message : "Registration is done"});
              } 
              catch (err) {
                  console.log(err); 
-                 setMessage('Please Enter your details');
-                 }
+                 toast.error('Please Enter your details');
+             }
      };
 
       
@@ -51,11 +49,11 @@ const Signup = () => {
                        <input type="password" id='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder="At least 8 characters" /> 
 
                        <button onClick={handleSignup}>Continue</button>
-                       {message && <p  className='error-msg'>{message}</p>}
                        <p>Already have an account? <a href="/">Sign in</a></p>
                 </form>
             </div>
                <img src={img} className="img" alt="burger pic" />
+               <Toaster/>
         </div>
   );
 };
