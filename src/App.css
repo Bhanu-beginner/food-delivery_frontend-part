@@ -1,0 +1,436 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+
+/* Authentication page styling starts from here */
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+}
+
+
+.signin{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 150px;
+}
+
+.img{
+    width: 800px;
+    height: 700px;
+    margin-top: 60px;
+}
+
+
+.form-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-fields h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.form-fields .logo{
+    margin-bottom: 18px;
+}
+
+
+
+.leftside{
+    margin: 100px;
+}
+
+
+.form-fields input{
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    width: 480px;
+}
+
+
+ #email{
+    margin: 10px;
+}
+
+#phonenumber{
+    margin: 10px;
+}
+
+#name{
+    margin: 10px;
+}
+
+#password{
+    margin: 10px;
+}
+
+.form-fields button{ 
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: 20px 0px 30px 15px;
+    background: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+
+.form-fields p{
+    text-align: center;
+}
+
+.error-msg{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: red;
+}
+
+/* Footer component styling starts from here */
+
+.footer{
+    width: 100%;
+    background: rgba(217, 217, 217, 1);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.container img{
+    width: 200px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.below{
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.social-links h5{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top:0px;
+}
+
+
+.social-links input{
+    border-radius: 25px;
+    padding: 15px;
+}
+
+
+.social-links .field{
+    position: absolute;
+    width: 300px;
+    background: rgba(217, 217, 217, 1);
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline-color: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+
+.social-links .button{
+    position: relative;
+    left:70%;
+    width: 140px;
+    text-align: center;
+    background: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+.social-links a img{
+    width: 35px;
+    margin-left: 10px;
+}
+
+
+.social-links p{
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.info h5{
+    font-size:1.2rem;
+    font-weight: 700;
+}
+
+.info a{
+    display: flex;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+
+.static-links h5{
+    font-size:1.2rem;
+    font-weight: 700;
+}
+
+
+.static-links a{
+    display: flex;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 35px;
+    margin-bottom: 5px;
+}
+
+
+
+.end{
+    background: rgba(3, 8, 31, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+}
+
+.base-links a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    position: relative;
+    top: 45px;
+    left: 55%;
+    margin: 20px;
+}
+
+
+/* Styling for the home page */
+
+.contain{
+    width: 1500px;
+    padding: 50px;
+}
+
+
+.offer {
+    background:rgba(251, 251, 251, 1);
+    width: 100%;
+    position:relative;
+    bottom: 50px;
+    padding: 20px;
+    font-size: .7rem;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+}
+
+.offer a{
+    color:  rgba(252, 138, 6, 1);    
+    margin-right: 310px;
+}
+
+
+.offer img{
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.offer .cart{
+    background: rgba(2, 134, 67, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 150px 20px 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.offer .cart img{
+    width: 30px;
+    top: 23px;
+    right: 17%;
+    position: absolute;
+}
+
+
+.offer .cart .arrow{
+    position: absolute;
+    left: 92%;
+}
+
+/* styling for the navbar items */
+
+.navitems .logo1{
+    width: 200px;
+    position: relative;
+    bottom: 15px;
+    left: -2%;
+    margin-bottom: 40px;
+}
+
+.navitems{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navitems a{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+.navitems .home{
+    background: rgba(252, 138, 6, 1);
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+}
+
+
+.navitems a img{
+    position: relative;
+    background: rgba(3, 8, 31, 1);
+    border-radius: 50%;
+    left: 5px;
+}
+
+.navitems .button{
+    color: rgba(255, 255, 255, 1);
+    height: 30px;
+    width: 120px;
+    background: rgba(3, 8, 31, 1);
+    line-height: 25px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+
+/* styling for the banner section */
+
+.banners{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(251, 251, 251, 1);
+    padding: 40px;
+}
+
+
+.banner-container{
+    position: relative;
+}
+
+.banner-container p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.banner-container p{
+    padding: 0px 0px 0px 30px;
+    margin: 0px;
+}
+
+.banner-container h2{
+    padding: 0px 0px 0px 30px;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 0px;
+   }
+
+
+.banner-container h2 span{
+    color: rgba(252, 138, 6, 1);
+}
+
+.banner-container .statement{
+    padding: 0px 0px 10px 30px;
+    margin: 0px 0px 20px 0xp;
+}
+
+.banner-container .field{
+    position: absolute;
+    width: 300px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0px 0px 5px 25px;
+    padding: 15px 10px 15px 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.banner-container .button{
+    position: relative;
+    left: 60%;
+    border-radius: 25px;
+    width: 180px;
+    padding: 15px 10px 17px 5px;
+    text-align: center;
+    background: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+}
+
+.banners .banner{
+    width: 840px;
+    height: 535px;
+    position: absolute;
+    right: 20%;
+    top: 32.5%;
+    z-index: 1;
+}
+
+.banners .banner2{
+    padding: 30px;
+    width: 320px;
+    top: 85px;
+    height: 400px;
+    position: relative;
+    left: -15%;
+}
+
+.banners .curve{
+    width: 550px;
+    position: relative;
+    right: -30%;
+    top: 35px;
+}
