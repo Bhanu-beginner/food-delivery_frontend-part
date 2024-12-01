@@ -12,6 +12,8 @@ import Restaurants from './Restaurants';
 import OrderingBanner from './OrderingBanner';
 import Advertising from './Advertising';
 import Stats from './Stats';
+import Information from './Information';
+
 
 function Home() {
 
@@ -20,7 +22,7 @@ function Home() {
       <div className='offer'>
         <span>🌟&nbsp;  Get 5% Off your first order, <a href="#">Promo: ORDER5</a></span>
         <span> <img src={location} alt="location pic" />Regent Street, A4, A4201, London &nbsp;  <a href="#">Change Location</a></span>
-        <span className='cart'><img src={shoppingicon} alt="cart pic" /> My Cart <img className='arrow'  src={downarrow} alt="down arrow" /></span>
+        <span className='cart'><img src={shoppingicon} alt="cart pic" /><span className='My-cart'>My Cart</span><img className='arrow'  src={downarrow} alt="down arrow" /></span>
       </div>
       <Navbar/>
       <div className='banners'>
@@ -60,6 +62,7 @@ function Home() {
       <Restaurants/>
       <OrderingBanner/>
       <Advertising/>
+      <Information/>
       <Stats/>
     </div>
   );

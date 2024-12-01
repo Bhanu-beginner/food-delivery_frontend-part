@@ -1,0 +1,68 @@
+*{
+    font-family: "Poppins", "sans-serif";
+}
+
+
+/* Navitems styling starts from here */
+.picture{
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    margin-left: 70px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    margin-left: 50px;
+    list-style-type: none;
+    position: relative;
+    bottom: 100px;
+    left: 500px;
+    cursor: pointer;
+}
+
+.nav li a{
+    text-decoration: none;
+    color:rgba(3, 8, 31, 1) ;
+}
+
+.nav img{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    left: 390px;
+    bottom: 87px;
+}
+
+.nav button{
+    position: relative;
+    left: 560px;
+    width: 180px;
+    bottom: 95px;
+    padding-left: 26px;
+    border-radius: 35px;
+    background: rgba(3, 8, 31, 1);
+    height: 45px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.nav ul .highlighted{
+    background: rgba(252, 138, 6, 1);
+    border-radius: 30px;
+    padding: 12px 5px 0px 3px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    bottom: 110px;
+    color: rgba(255, 255, 255, 1);
+}
+
+

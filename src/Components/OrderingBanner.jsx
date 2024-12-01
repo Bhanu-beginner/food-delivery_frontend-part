@@ -7,11 +7,15 @@ const OrderingBanner = () => {
     <>
       <div className="order-banner">
         <img src={bannerimage} className='couple-banner'  alt="couple ordering picture" />
-        <img src={logo} alt="" /><span>ing is more </span>
+          <div className='span-element'>
+              <p>Personalised</p>
+              <p className='instant'> & Instant</p>
+          </div>
       </div>
-
       <div className='app-badges'>
-        <img src={badges} alt="downloading resoure images" />
+         <img src={logo} className='order-logo' alt="" /><span>ing is more </span>
+         <p>Download the Order.uk app for faster ordering</p>
+        <img src={badges} className='icons'  alt="downloading resoure images" />
       </div>
     </>
   )

@@ -5,6 +5,13 @@ import Signup from './Components/Signup';
 import SignIn from './Components/SignIn';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
+import Restaurants from './Components/Restaurants';
+import McDonalds from './Pages/McDonalds';
+import KFC from './Pages/KFC';
+import PapaJohns from './Pages/PapaJohns';
+import TexasChicken from './Pages/TexasChicken';
+import BurgerKing from './Pages/BurgerKing';
+import ShaurmaNo1 from './Pages/ShaurmaNo1';
 
 function App() {
 
@@ -14,6 +21,13 @@ function App() {
            <Route path="/" element={<SignIn />} />
            <Route path="/signup" element={<Signup/>} />
            <Route path='/home' element= {<Home/>}/>
+           <Route path='/restaurants' element={<Restaurants/>}/>
+           <Route path='/McDonalds.com' element={<McDonalds/>}/>
+           <Route path='/KFC.com' element={<KFC/>}/>
+           <Route path='/PapaJohns.com' element={<PapaJohns/>}/>
+           <Route path='/TexasChicken.com' element={<TexasChicken/>}/>
+           <Route path='/BurgerKing.com' element={<BurgerKing/>}/>
+           <Route path='/ShaurmaNo1.com' element={<ShaurmaNo1/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

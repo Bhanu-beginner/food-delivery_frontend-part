@@ -1,0 +1,339 @@
+/* First content styling starts from here */
+
+.burger-scenary h1{
+    position: absolute;
+    z-index:1;
+    left: 100px;
+    top: 380px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.burger-scenary p{
+    position: absolute;
+    z-index: 1;
+    left: 100px;
+    top: 370px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.burger-scenary .burger-background{
+    width: 1350px;
+    left: 65px;
+    position:relative;
+    bottom: 60px;
+    height: 480px;
+}
+
+
+.burger-scenary .min-order{
+    position: absolute;
+    z-index: 1;
+    bottom: 160px;
+    left: 100px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 30px;
+    width: 250px;
+    text-align: end;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.burger-scenary .delivery-time{
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+    bottom: 160px;
+    left: 400px;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: end;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.burger-scenary .order-plank{
+    position: absolute;
+    width: 38px;
+    left: 120px;
+    bottom: 208px;
+    z-index: 1;
+}
+
+
+.burger-scenary .order-completed{
+    position: absolute;
+    width: 38px;
+    left: 418px;
+    bottom: 208px;
+    z-index: 1;
+}
+
+
+.burger-scenary .fries-img{
+    position: absolute;
+    z-index: 1;
+    right: 180px;
+    width: 550px;
+}
+
+
+.burger-scenary .rating{
+     position: absolute;
+     z-index: 1;
+     right:660px;
+     width: 120px;
+     top: 500px;
+}
+
+
+
+.burger-scenary .line{
+    position: absolute;
+    top: 650px;
+    background: rgba(252, 138, 6, 1);
+    width: 250px;
+    left: 65px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/* Search section styling starts from here */
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.search h3{
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.search input{
+    position: relative;
+    bottom: 52px;
+    width: 200px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+
+/* Items-section styling starts from here */
+
+
+
+.items-section ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 0px;
+    background: rgba(252, 138, 6, 1);
+    padding: 40px;
+    margin-bottom: 0px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.items-section ul li:hover{
+    background: rgba(3, 8, 31, 1);
+    border-radius: 20px;
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    text-align: center;
+    transition: 0.5s ease-in-out ;
+}
+
+
+
+.items-section .offers-icon{
+    background: rgba(3, 8, 31, 1);
+    border-radius: 20px;
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* Dishes styling starts from here */
+
+.items-section img{
+    padding: 80px 10px 15px 20px;
+    width: 430px;
+    margin-left:35px;
+    cursor: pointer;
+}
+
+
+
+/* Burger snacks styling starts from here */
+
+
+
+.burger-snack h3{
+    padding: 80px 0px 0px 60px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.burger-snack img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+/* Fries snack styling starts from here */
+
+
+.fries-snack h3{
+    padding: 50px 0px 0px 60px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgba(252, 138, 6, 1);
+}
+
+
+.fries-snack img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+/* Drinks section styling starts from here */
+
+.drinks h3{
+    padding: 50px 0px 0px 60px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: rgba(252, 138, 6, 1);
+}
+
+
+
+.drinks img{
+    width: 450px;
+    margin-left: 40px;
+}
+
+
+
+#map { 
+    height: 180px; 
+    background: #000;
+}
+
+
+
+/* Information styling starts from here */
+
+
+
+.total-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(251, 251, 251, 1);
+    width: 85%;
+    margin-left: 100px;
+    border-radius: 15px;
+    text-align: start;
+    padding-top: 50px;
+    margin-top: 100px;
+    max-height: fit-content;
+}
+
+
+.total-info h3{
+    font-size: 1.5rem;
+    position: relative;
+    left: 40px;
+    font-weight: 700;
+    top: -40px;
+    margin-left: 30px;
+}
+
+.total-info ul li{
+    list-style: none;
+    position: relative;
+    bottom: 50px;
+    line-height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.information img{
+    position: relative;
+    top: 30px;
+}
+
+.total-info li span{
+    font-weight: 700;
+}
+
+
+
+.contact-info img{
+    position: relative;
+    top: 30px;
+}
+
+.operational-times{
+    background: rgba(3, 8, 31, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    bottom: 50px;
+    width: 400px;
+    position: relative;
+    left: 26px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.operational-times img{
+    position: relative;
+    left:10px;
+    top: 10px;
+}
+
+.operational-times h3{
+    top: -60px;
+}
+
+
+/* Similar restaurants styling starts from here */
+
+
+.similar h3{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.similar img{
+    width: 150px;
+    padding-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+

@@ -11,7 +11,7 @@ const Footer = () => {
      <footer className="footer"> 
         <div className="container"> 
             <img src={image} alt="footer logo" />
-            <img src={appimages} alt="download sources" />
+            <img src={appimages} className='footer-img' alt="download sources" />
             <p className="below">Company # 490039-445, Registered with <br/>House of companies. </p>
         </div> 
         <div className='social-links'>

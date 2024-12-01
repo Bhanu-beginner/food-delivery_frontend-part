@@ -6,10 +6,11 @@ import BK from '../assets/Group 20.png';
 import SM from '../assets/Group 21.png';
 
 
-const Restaurants = () => {
+const SimilarRes = () => {
   return (
-      <div className="restaurant-images">
-        <h3>Popular Restaurants</h3>
+    <div>
+      <div className="similar">
+        <h3>Similar Restaurants</h3>
         <a href="/McDonalds.com"><img src={McD} alt="McDonalds picture" /></a>
         <a href="/PapaJohns.com"><img src={PJ} alt="Papa Johns picture" /></a>
         <a href="/KFC.com"><img src={KFC} alt="KFC picture" /></a>
@@ -17,7 +18,8 @@ const Restaurants = () => {
         <a href="/BurgerKing.com"><img src={BK} alt="Burger king picture" /></a>
         <a href="/ShaurmaNo1.com"><img src={SM} alt="Shaurma picture" /></a>
       </div>
+    </div>
   )
 }
 
-export default Restaurants
+export default SimilarRes
