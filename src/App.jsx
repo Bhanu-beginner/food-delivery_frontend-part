@@ -15,7 +15,7 @@ import ShaurmaNo1 from './Pages/ShaurmaNo1';
 import Cart from './Pages/Cart';
 import Checkout from './Pages/Checkout';
 import Payment from './Pages/Payment';
-
+import OrderSuccessfull from './Pages/OrderSuccessfull';
 
 
 
@@ -37,6 +37,7 @@ function App() {
            <Route path='/Cart' element={<Cart/>}/>
            <Route path='/Checkout' element={<Checkout/>}/>
            <Route path='/Payment' element={<Payment/>}/>
+           <Route path='/Order Successful' element={<OrderSuccessfull/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

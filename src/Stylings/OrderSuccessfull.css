@@ -1,0 +1,87 @@
+.successful-icon img{
+    position: relative;
+    left: 42%;
+}
+
+.successful-icon h5{
+    position: absolute;
+    top: 58%;
+    right: 43%;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+.successful-icon p{
+    position:relative;
+    left: 40%;
+    top: 50px;
+    color: rgba(131, 133, 138, 1);
+    font-weight: 400;
+    font-size: .9rem;
+    text-wrap: balance;
+}
+
+
+.successful-icon .confirm{
+    position: relative;
+    left: 36%;
+}
+
+.successful-icon span{
+    position: relative;
+    left:5%;
+}
+
+
+.order-items{
+    border: 1px solid black;
+    width: 21%;
+    position: relative;
+    left: 36%;
+    margin-top: 100px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding:10px 10px 0px 10px;
+    height: auto;
+}
+
+.order-items p{
+    position: relative;
+    top: -2px;
+    left: 25%;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(3, 8, 31, 1);
+}
+
+
+.order-items a{
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    bottom: 0px;
+}
+
+.order-items a p{
+    background: rgba(252, 138, 6, 1);
+    width: 80%;
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 30px 10px 30px;
+    border-radius: 50px;
+    position: relative;
+    left: -20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+.order-items .potato-veg-item{
+    position: relative;
+    left: 32%;
+}
+
+.order-items .coke-item{
+    position: relative;
+    left: 30%;
+}

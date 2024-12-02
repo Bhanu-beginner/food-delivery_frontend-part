@@ -61,7 +61,7 @@ const PaymentDropdown = () => {
             {showBalance && <p>Available Wallet Balance: ₹{walletBalance}</p>}
       </div>
       <p className='amount-paying'>Amount to be payed :<span>₹240</span></p>
-      <a href="/">Proceed Payment</a>
+      <a href="/Order Successful">Proceed Payment</a>
       </div>
     </>
   );
