@@ -1,0 +1,100 @@
+.payment-options h3{
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    left: 150px;
+    margin-top: 0px;
+}
+
+.payment-options img{
+    position: relative;
+    left: 100px;
+    bottom: 9px;
+}
+
+
+.payment-options select{
+    padding: 20px;
+    width: 50%;
+    margin-top: 0px;
+    border-radius: 40px;
+    margin-left: 100px;
+}
+
+
+.image-pay{
+    height: auto;
+}
+
+.image-pay .wallet-icon{
+    position: relative;
+    top: 40px;
+    left: 28%;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.image-pay p{
+    position: relative;
+    left: 25%;
+    margin-bottom: 100px;
+}
+
+
+.image-pay .icon{
+    position: relative;
+    top: 40px;
+    width: 100px;
+    left: 30%;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+
+
+.image-pay .debit{
+    width:fit-content;
+    border: 2px solid;
+    margin-top: 100px;
+    padding:20px;
+    border-radius: 50px;
+    background: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+
+.payment-options .amount-paying{
+    border: 1px solid ;
+    position: absolute;
+    padding: 10px;
+    width: 25%;
+    right: 200px;
+    bottom: 250px;
+    height: 100px;
+    border-radius: 10px;
+    color: rgba(131, 133, 138, 1);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.payment-options a{
+    text-decoration: none;
+    position: absolute;
+    right: 220px;
+    width: 23%;
+    padding: 10px;
+    bottom: 280px;
+    background: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.payment-options .amount-paying span{
+    margin-left: 100px;
+    font-weight:700;
+    color: rgba(0, 0, 0, 1);
+}

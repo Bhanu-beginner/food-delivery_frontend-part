@@ -14,6 +14,7 @@ import BurgerKing from './Pages/BurgerKing';
 import ShaurmaNo1 from './Pages/ShaurmaNo1';
 import Cart from './Pages/Cart';
 import Checkout from './Pages/Checkout';
+import Payment from './Pages/Payment';
 
 
 
@@ -35,6 +36,7 @@ function App() {
            <Route path='/ShaurmaNo1.com' element={<ShaurmaNo1/>}/>
            <Route path='/Cart' element={<Cart/>}/>
            <Route path='/Checkout' element={<Checkout/>}/>
+           <Route path='/Payment' element={<Payment/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

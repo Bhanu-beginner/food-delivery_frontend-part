@@ -41,7 +41,7 @@
     bottom: 87px;
 }
 
-.nav button{
+.nav button {
     position: relative;
     left: 560px;
     width: 180px;
@@ -53,6 +53,14 @@
     color: rgba(255, 255, 255, 1);
     cursor: pointer;
 }
+
+
+.nav button a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+
 
 .nav ul .highlighted{
     background: rgba(252, 138, 6, 1);

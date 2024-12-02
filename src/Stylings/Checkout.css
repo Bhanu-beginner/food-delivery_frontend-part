@@ -1,0 +1,232 @@
+.left-arrow img{
+    margin-left: 105px;
+}
+
+.left-arrow h2{
+    position: absolute;
+    top: 230px;
+    left: 180px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.checkout-items{
+    width:55%;
+    border: 2px solid black;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+
+.checkout-items .royal-burger{
+    width: 100px;
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    border-radius: 10px;
+}
+
+.checkout-items h6{
+    position: relative;
+    left: 180px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
+.checkout-items  span{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-left: 380px;
+    color: rgba(2, 134, 67, 1);
+}
+
+
+.checkout-items .no-70{
+    margin-left: 435px;
+}
+
+.checkout-items .no-40{
+    margin-left: 428px;
+}
+
+
+.checkout-items p{
+    position: absolute;
+    left:250px;
+    font-size: .8rem;
+}
+
+
+.checkout-items .cheese-times{
+    position: relative;
+    bottom:30px;
+    left: 180px;
+}
+
+
+.checkout-items .french-fries{
+    width: 80px;
+    position: absolute;
+    top: 500px;
+    left: 150px;
+    border-radius: 10px;
+}
+
+
+.checkout-items .veggy{
+    position: relative;
+    bottom: 30px;
+}
+
+.checkout-items .veggy-items{
+    position: relative;
+    bottom:60px;
+    left: 180px;
+}
+
+.checkout-items .coke{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.checkout-items .coco-cola{
+   position: absolute;
+   top: 600px;
+   left: 150px;
+   width: 70px;
+   border-radius: 10px;
+}
+
+
+.checkout-items .coke-cola{
+    position: relative;
+    bottom:80px;
+    left: 180px;
+}
+
+
+.checkout-items .note{
+    position: absolute;
+    bottom: 50px;
+    color: rgba(131, 133, 138, 1);
+    left: 150px;
+    margin-bottom: 20px;
+}
+
+.checkout-items input{
+    padding: 30px;
+    width:80%;
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+    border-radius: 40px;
+}
+
+
+
+.address-context .location-icon{
+    position: absolute;
+    bottom: 330px;
+    border: 2px solid rgba(252, 138, 6, 1);;
+    right: 360px;
+    width: 35px;
+    z-index: 1;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.address-context .address-para{
+    position: absolute;
+    bottom: 300px;
+    right:55px;
+    width: 350px;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.address-context .address-para span{
+    position: relative;
+    left:75px;
+}
+
+.address-context .address-parag{
+    position: absolute;
+    bottom: 300px;
+    right: 150px;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color: rgba(131, 133, 138, 1);
+    font-weight: 400;
+}
+
+
+.address-context .forward-icon{
+    background: rgba(252, 138, 6, 1);
+    position: absolute;
+    bottom: 327px;
+    border-radius: 50%;
+    right:70px;
+    width: 50px;
+}
+
+
+.pay {
+    position: absolute;
+    bottom: 100px;
+    right: 110px;
+    color: rgba(131, 133, 138, 1);
+}
+
+
+.pay span{
+    margin-left: 100px;
+}
+
+
+.pay .no-230{
+    position: relative;
+    left: 150px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.pay .no-10{
+    position: relative;
+    left: 130px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+.pay .no-240{
+     font-weight: 700;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 1);
+    position: relative;
+    left: 40px;
+}
+
+
+
+.checkout-section a{
+    position: absolute;
+    right:80px;
+    bottom: 0px;
+    background-color: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+}
