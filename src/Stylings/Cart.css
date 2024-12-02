@@ -1,0 +1,494 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.items-sections ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 30px;
+    background: rgba(252, 138, 6, 1);
+    padding: 40px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.items-sections ul li:hover{
+    background: rgba(3, 8, 31, 1);
+    border-radius: 20px;
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    text-align: center;
+    transition: 0.5s ease-in-out ;
+}
+
+
+.items-sections  .offer-img{
+    background: rgba(3, 8, 31, 1);
+    border-radius: 20px;
+    padding: 10px 10px 5px 10px;
+    width: 100px;
+    text-align: center;
+}
+
+
+/* Different dishes/varieties styling starts from  here */
+
+.variety-snackitems .different-items img{
+    padding-left: 80px;
+}
+
+.variety-snackitems img{
+    width: 500px;
+    padding: 30px;
+}
+
+
+.variety-snackitems h3{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    color: rgba(252, 138, 6, 1); ;
+}
+
+.variety-snackitems .right-side{
+    position: relative;
+    right: 80px;
+}
+
+
+.share-icon{
+    background: rgba(252, 138, 6, 1);
+    position: absolute;
+    bottom: 30px;
+    width: 340px;
+    height: 20px;
+    right: 60px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.share-icon span{
+   font-weight: 600;
+   font-size: 1.2rem;
+   position: relative;
+   bottom: 45px;
+}
+
+.share-icon img{
+    width: 40px;
+    right: 10px;
+    bottom: 15px;
+    position: relative;
+}
+
+.share-icon p{
+    position: relative;
+    bottom: 60px;
+    left: 40px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+
+.share-icon a{
+    position: relative;
+    bottom: 120px;
+    left: 240px;
+    text-decoration: none;
+    color:  rgba(252, 138, 6, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+
+.name img{
+    width: 70px;
+    top: 20px;
+    z-index: 1;
+    margin-right: 40px;
+    right: 250px;
+    position: absolute;
+}
+
+
+ .name{
+    background: rgba(2, 134, 67, 1);
+    position: absolute;
+    top: 800px;
+    width: 310px;
+    padding: 50px;
+    right:  65px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 10px;
+    color: rgba(255, 255, 255, 1);;
+}
+
+.name .name-text{
+    position: absolute;
+    left: 150px;
+    bottom: 0px;
+    font-weight: 600;
+    font-size: 2.2rem;
+}
+
+.basket-container{
+    background: rgba(249, 249, 249, 1);
+    width: 410px;
+    position: absolute;
+    top: 900px;
+    right: 65px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.first-col .number-times{
+    font-size: 1.5rem;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    cursor: pointer;
+    background: rgba(252, 138, 6, 0.8);
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 255, 255, 1) ;
+}
+
+
+.first-col .no{
+    position: relative;
+    bottom: 100px;
+    font-weight: 600;
+    color: rgba(2, 134, 67, 1);
+    left: 140px;
+    font-size: 1.9rem;
+}
+
+
+.first-col span h6{
+    font-weight: 600;
+    font-size: 1.2rem;
+    position: relative;
+    left: 140px;
+    bottom: 144px;
+}
+
+.first-col .extra{
+    position: relative;
+    left: 142px;
+    bottom:180px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.first-col span img{
+    position: relative;
+    left: 345px;
+    bottom: 260px;
+    cursor: pointer;
+}
+
+.basket-container .second-col{
+    background: rgba(249, 249, 249, 1);
+    width: 410px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.second-col .number-time{
+    font-size: 1.5rem;
+    position: relative;
+    left: 30px;
+    top: 80px;
+    cursor: pointer;
+    background: rgba(252, 138, 6, 0.8);
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 255, 255, 1) ;
+}
+
+.second-col .amount{
+    position: relative;
+    bottom:50px;
+    font-weight: 600;
+    color: rgba(2, 134, 67, 1);
+    left: 130px;
+    font-size: 1.9rem;
+}
+
+
+.second-col span h6{
+    font-weight: 600;
+    font-size: 1.2rem;
+    position: relative;
+    left: 130px;
+    bottom:90px;
+}
+
+
+.second-col .mushroom-item{
+    position: relative;
+    left: 132px;
+    bottom:120px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+.second-col span img{
+    position: relative;
+    left: 340px;
+    bottom: 240px;
+    cursor: pointer;
+}
+
+
+
+.basket-container .third-col{
+    background: rgba(249, 249, 249, 1);
+    width: 410px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    height: 0px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.third-col .numbers-times{
+    font-size: 1.5rem;
+    position: relative;
+    left: 30px;
+    top: 300px;
+    cursor: pointer;
+    background: rgba(252, 138, 6, 0.8);
+    border-radius: 50%;
+    width: 35px;
+    text-align: center;
+    padding: 20px;
+    color: rgba(255, 255, 255, 1) ;
+}
+
+.third-col .rate{
+    position: relative;
+    top:180px;
+    font-weight: 600;
+    color: rgba(2, 134, 67, 1);
+    left: 130px;
+    font-size: 1.9rem;
+}
+
+
+.third-col span h6{
+    font-weight: 600;
+    font-size: 1.2rem;
+    position: relative;
+    left: 130px;
+    top: 140px;
+}
+
+.third-col span img{
+    position: relative;
+    left: 340px;
+    bottom: -40px;
+    cursor: pointer;
+}
+
+
+.total-add .total-h6{
+    position: relative;
+    left: 50px;
+    bottom: -200px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+
+
+.total-add .discount-h6{
+    position: relative;
+    left: 50px;
+    bottom: -150px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.total-add .delivery-h6{
+    position: relative;
+    left: 45px;
+    bottom: -100px;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+
+
+.total-add span{
+    font-weight: 400;
+    font-size: 1.5rem;
+    position: relative;
+    top: 2px;
+    left: 100px;
+}
+
+
+.total-add .no3{
+    position: relative;
+    left: 110px;
+}
+
+.overall-pay h6{
+    background: rgba(252, 138, 6, 0.8);
+    position: relative;
+    bottom: -80px;
+    padding: 25px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.3rem;
+    border-radius: 15px;
+    width: 72%;
+    left: 35px;
+}
+
+
+.overall-pay span{
+    font-weight: 600;
+    font-size: 1.5rem;
+    top: 20px;
+    margin-left: 60px;
+}
+
+
+ 
+.chosing p{
+    position: relative;
+    bottom:0px;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 70%; 
+    left: 30px;
+    top: 50px;
+    border-radius: 40px;
+    height: 10px;
+    background: rgba(247, 248, 245, 1);
+    padding: 30px;
+    border: 1px solid rgba(207, 207, 207, 1)
+}
+
+
+
+.chosing span img{
+    position: relative;
+    bottom: 5px;
+    left: 300px;
+    background: rgba(2, 134, 67, 1);
+    border-radius: 50%;
+}
+
+.chosing span .arow{
+    background: rgba(238, 248, 240, 1);
+    position: relative;
+    bottom: 0px;
+}
+
+
+.chosing .arrow-img{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.chosing .para{
+    position: relative;
+    top: 70px;
+}
+
+
+.chosing .paragraph{
+    position: relative;
+    top: 20px;
+}
+
+.last-col .scooter-img{
+    position: relative;
+    top:40px;
+    left: 80px;
+}
+
+
+.last-col p{
+    text-wrap: balance;
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+
+
+.last-col .at{
+    position: relative;
+    bottom: 25px;
+    left: 52px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 70px;
+}
+
+.store-col .store{
+    position: relative;
+    bottom: 155px;
+    left: 280px;
+}
+
+
+.store-col .collection{
+    position: relative;
+    bottom: 160px;
+    left: 260px;
+}
+
+
+.store-col .starts{
+    position: relative;
+    bottom: 165px;
+    left: 244px;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 70px;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.checkout-sec .arrow-picture{
+    position: absolute;
+    left: 60px;
+    z-index: 1;
+    bottom: 118px;
+    width: 40px;
+}
+
+
+.checkout-sec a{
+    background: rgba(2, 134, 67, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.6rem;
+    position: relative;
+    text-decoration: none;
+    left: 50px;
+    border-radius: 20px;
+    width: 500px;
+    padding: 20px 90px 20px 80px;
+    bottom: 120px;
+}

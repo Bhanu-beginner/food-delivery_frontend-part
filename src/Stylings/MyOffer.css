@@ -1,0 +1,74 @@
+.contains{
+    width: 98%;
+    padding: 50px;
+}
+
+
+.offers {
+    background:rgba(251, 251, 251, 1);
+    width: 89%;
+    position:relative;
+    bottom: 50px;
+    padding: 5px;
+    font-size: .7rem;
+    font-weight: 700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.offers  .first-span{
+    padding-left: 80px;
+    padding-right: 150px;
+}
+
+.offers a{
+    color:  rgba(252, 138, 6, 1);    
+    margin-right: 100px;
+}
+
+.offers .second-span{
+    color:  rgba(252, 138, 6, 1);
+     text-decoration: underline;
+     margin-right: 100px;
+}
+
+.offers img{
+    width: 30px;
+    position: relative;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+.offers .carts{
+    background: rgba(2, 134, 67, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 80px 0px 8px 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.offers .My-cart a{
+    position: relative;
+    bottom: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.offers .cart img{
+    width: 40px;
+    top: 14px;
+    right: 12%;
+    position: absolute;
+}
+
+
+.offers .cart .arrow{
+    position: absolute;
+    left: 96%;
+    width:34px;
+    top: 5px;
+}

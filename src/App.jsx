@@ -12,6 +12,11 @@ import PapaJohns from './Pages/PapaJohns';
 import TexasChicken from './Pages/TexasChicken';
 import BurgerKing from './Pages/BurgerKing';
 import ShaurmaNo1 from './Pages/ShaurmaNo1';
+import Cart from './Pages/Cart';
+import Checkout from './Pages/Checkout';
+
+
+
 
 function App() {
 
@@ -28,6 +33,8 @@ function App() {
            <Route path='/TexasChicken.com' element={<TexasChicken/>}/>
            <Route path='/BurgerKing.com' element={<BurgerKing/>}/>
            <Route path='/ShaurmaNo1.com' element={<ShaurmaNo1/>}/>
+           <Route path='/Cart' element={<Cart/>}/>
+           <Route path='/Checkout' element={<Checkout/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

@@ -1,12 +1,12 @@
 import logo from '../assets/LOGO 1.png'
 import profile from '../assets/Male User.png'
 import '../Stylings/Navitems.css'
-import Offer from '../Components/Offer';
+import MyOffer from '../Components/MyOffer'
 
 const NavItems = () => {
     return (
       <>
-      <Offer/> 
+      <MyOffer/>
       <img src={logo} className='picture' alt="logo image" />
        <div className="nav">
           <ul>
