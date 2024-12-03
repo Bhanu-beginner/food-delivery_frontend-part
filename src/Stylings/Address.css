@@ -1,0 +1,160 @@
+/* Address heading styling starts from here */
+
+
+.address-section img{
+    position: relative;
+    left: 9%;
+}
+
+.address-section h3{
+    position: absolute;
+    left: 13%;
+    top: 225px;
+}
+
+
+/* styling for the address edit button/text starts from here */
+
+.adding-address{
+    border: 1px dashed  rgba(175, 175, 175, 1);
+    width: fit-content;
+    padding: 50px;
+    position: relative;
+    left: 12%;
+    top: 30px;
+    border-radius: 10px;
+}
+
+.adding-address img{
+    position: relative;
+    left: 25px;
+}
+
+
+/* first block of address styling starts from here */
+
+
+.default-address{
+    border: 1px solid rgba(175, 175, 175, 1);
+    position: absolute;
+    left: 35%;
+    bottom: 29%;
+    width: 300px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+
+
+.default-address h6{
+    position: absolute;
+    font-weight: 600;
+    font-size: 1rem;
+    bottom: 128px;
+    left: 20px;
+}
+
+
+.default-address .default{
+    position: relative;
+    left: 60%;
+    width: fit-content;
+    padding: 8px 25px 8px 25px;
+    bottom: 5px;
+    background: rgba(255, 237, 216, 1);
+    border-radius: 50px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+.default-address .street-no{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    font-size: .9rem;
+}
+
+
+.default-address .edit{
+    margin-left: 23px;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+
+.default-address .rem{
+    position: relative;
+    bottom: 36px;
+    left: 25%;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: .9rem;
+    color: rgba(252, 138, 6, 1);
+}
+
+/* second block of address styling starts from here */
+
+
+.work-address{
+    border: 1px solid rgba(175, 175, 175, 1);
+    position: relative;
+    left: 65%;
+    bottom: 188px;
+    width: 320px;
+    height: 210px;
+    border-radius: 10px;
+}
+
+
+.work-address h6{
+    position: absolute;
+    font-weight: 600;
+    font-size: 1rem;
+    bottom: 128px;
+    left: 20px;
+}
+
+
+.work-address .work{
+    position: relative;
+    top: 22%;
+    left: 20px;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+
+
+.work-address .ph-no{
+    position: relative;
+    top: 23%;
+    left: 20px;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+
+.work-address .remov{
+    position: relative;
+    top:20px;
+    left: 25%;
+    font-weight: 400;
+    font-size: .9rem;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}
+
+
+.work-address .edit{
+    margin-left: 25px;
+    position: relative;
+    top: 27%;
+    font-weight: 400;
+    font-size: .9rem;
+    color: rgba(252, 138, 6, 1);
+    cursor: pointer;
+}

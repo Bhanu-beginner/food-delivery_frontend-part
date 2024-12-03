@@ -1,0 +1,52 @@
+
+.address-sections img{
+    position: relative;
+    left: 9%;
+}
+
+.address-sections p{
+    position: absolute;
+    left: 12%;
+    top: 220px;
+    font-size: 2rem;
+    font-weight: 300;
+    color:  rgba(63, 63, 63, 1);
+}
+
+
+.address-sections form{
+    margin-top: 100px;
+    margin-left: 180px;
+    position: relative;
+    bottom: 80px;
+}
+
+
+.address-sections input{
+    margin-right: 30px;
+
+}
+
+.address-sections textarea{
+    resize: none;
+    margin-right: 30px;
+    position: relative;
+    top: 20px;
+    width: 57%;
+    border: 1px solid  rgba(255, 255, 255, 1);
+    right: 0px;
+}
+
+
+.address-sections button{
+    background: rgba(252, 138, 6, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    position: relative;
+    right: 125px;
+    top: 50px;
+    cursor: pointer;
+}

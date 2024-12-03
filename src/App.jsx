@@ -16,6 +16,8 @@ import Cart from './Pages/Cart';
 import Checkout from './Pages/Checkout';
 import Payment from './Pages/Payment';
 import OrderSuccessfull from './Pages/OrderSuccessfull';
+import Address from './Pages/Address';
+import AddressEdit from './Pages/AddressEdit';
 
 
 
@@ -38,6 +40,8 @@ function App() {
            <Route path='/Checkout' element={<Checkout/>}/>
            <Route path='/Payment' element={<Payment/>}/>
            <Route path='/Order Successful' element={<OrderSuccessfull/>}/>
+           <Route path='/Address' element={<Address/>}/>
+           <Route path='/Address Edit' element={<AddressEdit/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
