@@ -15,7 +15,7 @@ const Navigation = () => {
             <li>Restaurants</li>
             <li>Track Order</li>
           </ul>
-          <button><a href="">Hey Engineer</a></button><img src={profile} alt="" />
+          <button><a href="/Profile">Hey Engineer</a></button><img src={profile} alt="" />
       </div>
       </>
       

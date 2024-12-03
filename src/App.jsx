@@ -18,7 +18,7 @@ import Payment from './Pages/Payment';
 import OrderSuccessfull from './Pages/OrderSuccessfull';
 import Address from './Pages/Address';
 import AddressEdit from './Pages/AddressEdit';
-
+import Profile from './Pages/Profile';
 
 
 function App() {
@@ -42,6 +42,7 @@ function App() {
            <Route path='/Order Successful' element={<OrderSuccessfull/>}/>
            <Route path='/Address' element={<Address/>}/>
            <Route path='/Address Edit' element={<AddressEdit/>}/>
+           <Route path='/Profile' element={<Profile/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

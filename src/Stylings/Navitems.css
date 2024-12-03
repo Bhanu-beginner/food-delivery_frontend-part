@@ -39,6 +39,7 @@
     position: relative;
     left: 390px;
     bottom: 87px;
+    cursor: pointer;
 }
 
 .nav button {
@@ -74,3 +75,23 @@
 }
 
 
+
+.nav .profile{
+    text-decoration: none;
+    position: relative;
+    left: 560px;
+    width: 160px;
+    bottom: 95px;
+    padding-left: 26px;
+    border-radius: 35px;
+    background: rgba(3, 8, 31, 1);
+    height: 45px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.nav .profile span{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}

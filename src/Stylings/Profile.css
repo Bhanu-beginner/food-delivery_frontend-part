@@ -1,0 +1,270 @@
+.profile-sec img{
+    margin-left: 100px;
+}
+
+
+.profile-sec h3{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: 160px;
+    position: absolute;
+    top: 36%;
+}
+
+
+.profile-sec .picture{
+    position: relative;
+    top: 150px;
+    left: -80px;
+}
+
+
+.profile-sec a{
+    text-decoration: none;
+    background: rgba(252, 138, 6, 1);
+    color:  rgba(255, 255, 255, 1);
+    padding: 10px 40px 10px 40px;
+    position: absolute;
+    right: 150px;
+    top: 310px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.profile-sec h6{
+    position: relative;
+    left: 280px;
+    top:0px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.label-section label{
+    position: relative;
+    left: 20px;
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.label-section .email{
+    position: relative;
+    bottom: 45px;
+    left: 9%;
+}
+
+
+.label-section .country{
+    position: relative;
+    bottom: 10px;
+    left: 10%;
+}
+
+
+.label-section .gender{
+    position: relative;
+    top: 35px;
+    left: -45.5%;
+}
+
+.label-section input{
+    color: rgba(0, 0, 0, 1);
+    background: rgba(249, 249, 249, 1);
+    outline: none;
+    border: none;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.label-section #name{
+    position: relative;
+    left: 10px;
+    width: 45%;
+}
+
+
+.label-section #emailaddress{
+    position: relative;
+    left: 57.5%;
+    bottom: 53px;
+    width: 45%;
+}
+
+
+
+.label-section #gender{
+    position: relative;
+    left: 16px;
+    top: 40px;
+    width: 45%;
+}
+
+
+.label-section #country{
+    position: relative;
+    left: 57.5%;
+    bottom: 0px;
+    width: 45%;
+}
+
+
+.label-section {
+    border-bottom: 1px solid black;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+.label-section h5{
+    position: relative;
+    top: 100px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.first-card{
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 330px;
+    height: 70px;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+
+.first-card .eng{
+    position: absolute;
+    bottom: -32%;
+    left: 16.4%;
+    font-weight: 400;
+    font-size: .8rem;
+    color:  rgba(0, 0, 0, 0.4);
+}
+
+
+.first-card p span{
+    position: relative;
+    bottom: 96px;
+    left:87px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+.first-card .pen-icon{
+    position: absolute;
+    bottom: -29%;
+    left: 30.7%;
+}
+
+.second-card{
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 330px;
+    height: 70px;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -260px;
+    left: 25.5%;
+}
+
+
+.second-card .eng{
+    position: absolute;
+    bottom: 20%;
+    left: 28%;
+    font-weight: 400;
+    font-size: .8rem;
+    color:  rgba(0, 0, 0, 0.4);
+}
+
+
+.second-card p span{
+    position: relative;
+    bottom: 100px;
+    left:87px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+.second-card .pen-icon{
+    position: absolute;
+    bottom: 45%;
+    left: 88%;
+}
+
+.third-card{
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 330px;
+    height: 70px;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -260px;
+    left: 51%;
+}
+
+
+.third-card .eng{
+    position: absolute;
+    bottom: 20%;
+    left: 28%;
+    font-weight: 400;
+    font-size: .8rem;
+    color:  rgba(0, 0, 0, 0.4);
+}
+
+.third-card p span{
+    position: relative;
+    bottom: 100px;
+    left:87px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.third-card .pen-icon{
+    position: absolute;
+    bottom: 45%;
+    left: 88%;
+}
+
+
+.fourth-card{
+    border: 0.5px solid rgba(0, 0, 0, 0.2);
+    width: 330px;
+    height: 70px;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 150px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    left: 0px;
+}
+
+
+.fourth-card .addd{
+    width: 50px;
+    margin-top: 12px;
+    margin-left: 18px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.fourth-card p{
+    position: relative;
+    bottom: 68px;
+    left:89px;
+    font-weight: 400;
+    font-size: 1.2rem;
+}

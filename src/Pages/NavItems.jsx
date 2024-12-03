@@ -15,7 +15,7 @@ const NavItems = () => {
             <li className='highlighted'>Restaurants</li>
             <li>Track Order</li>
           </ul>
-          <button>Hey Engineer</button><img src={profile} alt="" />
+          <a href='/Profile' className='profile'><span>Hey Engineer</span></a><img src={profile} alt="" />
       </div>
       </>
       
