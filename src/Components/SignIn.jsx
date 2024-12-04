@@ -5,7 +5,7 @@ import img from "../assets/Group 8.svg";
 import { useNavigate } from 'react-router-dom';
 import {Toaster, toast} from 'react-hot-toast'
 
-const Login = () => {
+const SignIn = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
@@ -41,7 +41,7 @@ const Login = () => {
                 <input type="password" id='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder="At least 8 characters" />
 
                 <button onClick={handleLogin}>Sign In</button>
-                <p>Don&apos;t you have an account? <a href='SignUp'>Sign up</a></p>
+                <p>Don&apos;t you have an account? <a href='/Register'>Sign up</a></p>
              </form>
           </div>
             
@@ -53,4 +53,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default SignIn;

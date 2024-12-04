@@ -35,7 +35,7 @@ const Footer = () => {
           <h5>Important Links</h5>
           <a href="#">Get help </a>
           <a href="#">Add your restaurant</a>
-          <a href="/signup">Sign up to deliver</a>
+          <a href="/Register">Sign up to deliver</a>
           <a href="#">Create a business account</a>
         </div>  
     </footer>
@@ -53,9 +53,6 @@ const Footer = () => {
   )
 }
 
-export default Footer
-
-
-                          
+export default Footer;
 
 

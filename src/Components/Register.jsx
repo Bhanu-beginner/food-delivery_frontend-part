@@ -4,7 +4,7 @@ import logo from '../assets/LOGO 1.png';
 import img from '../assets/Group 8.svg';
 import {Toaster, toast} from 'react-hot-toast'
 
-const Signup = () => {
+const Register = () => {
     const [name, setName] = useState(''); 
     const [password, setPassword] = useState(''); 
     const [phoneNumber, setPhoneNumber] = useState(''); 
@@ -58,5 +58,5 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default Register;
 

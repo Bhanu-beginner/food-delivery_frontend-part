@@ -1,7 +1,7 @@
 
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Signup from './Components/Signup';
+import Register from './Components/Register';
 import SignIn from './Components/SignIn';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
@@ -27,7 +27,7 @@ function App() {
       <BrowserRouter>
         <Routes> 
            <Route path="/" element={<SignIn />} />
-           <Route path="/signup" element={<Signup/>} />
+           <Route path="/register" element={<Register/>} />
            <Route path='/home' element= {<Home/>}/>
            <Route path='/restaurants' element={<Restaurants/>}/>
            <Route path='/McDonalds.com' element={<McDonalds/>}/>
