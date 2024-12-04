@@ -13,7 +13,7 @@ const SignIn = () => {
     const handleLogin = async (e) => {
       e.preventDefault();
         try {
-            const res = await axios.post('http://localhost:5000/api/users/login', { email, password });
+            const res = await axios.post('https://food-deliverybackend-part-3mkhajm7x.vercel.app/', { email, password });
             toast.success('User logged in successfully');
             navigate('/home');
             res.status(200).json({message: 'User logged in Successfully'});

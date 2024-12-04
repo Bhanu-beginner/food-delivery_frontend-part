@@ -15,7 +15,7 @@ const Register = () => {
     const handleSignup = async (e) => { 
         e.preventDefault();
         try {
-             const res = await axios.post('http://localhost:5000/api/users/register', { name, password, phoneNumber, email }); 
+             const res = await axios.post('https://food-deliverybackend-part-3mkhajm7x.vercel.app/', { name, password, phoneNumber, email }); 
              toast.success('User registered successfully');
              res.status(200).json({message : "Registration is done"});
              } 
