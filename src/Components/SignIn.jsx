@@ -41,7 +41,7 @@ const SignIn = () => {
                 <input type="password" id='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder="At least 8 characters" />
 
                 <button onClick={handleLogin}>Sign In</button>
-                <p>Don&apos;t you have an account? <a href='/Register'>Sign up</a></p>
+                <p>Don&apos;t you have an account? <a href='/register'>Sign up</a></p>
              </form>
           </div>
             

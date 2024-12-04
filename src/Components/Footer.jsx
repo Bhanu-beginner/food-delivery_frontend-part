@@ -35,7 +35,7 @@ const Footer = () => {
           <h5>Important Links</h5>
           <a href="#">Get help </a>
           <a href="#">Add your restaurant</a>
-          <a href="/Register">Sign up to deliver</a>
+          <a href="/register">Sign up to deliver</a>
           <a href="#">Create a business account</a>
         </div>  
     </footer>
